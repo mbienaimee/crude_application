@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(187, 129, 129);
+        }
+        .last{
+            background-color:rgb(24, 9, 9);
+            background-size: cover;
+            height: 400px;
+            width: 500px;
+            color:white;
+            border-radius: 10px;
+            margin-left: 30%;
+        
+        }
+        form{
+            text-align: center;
+            
+        }
+        .btn{
+         margin-left: 30%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="last">
+
+       <form action="insert_data.php" method="post">
+            <h2>ADD STUDENTS</h2>
+            <label for="first_name"> First name</label> <br>
+             <input type="tect" name="first_name"> <br> 
+             <label for="last_name">Last name</label> <br>
+             <input type="text" name="last_name"> <br> 
+            <label for="age">Age</label> <br>
+            <input type="number" name="age"> <br> 
+            <button type="submit" name="add_students" >add</button>
+            <button type="submit" name="close">close</button>
+
+
+
+        </form>
+       
+          
+           
+    </div>
+    
+       
+
+</body>
+</html>
